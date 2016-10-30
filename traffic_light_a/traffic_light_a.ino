@@ -10,13 +10,13 @@
 
 //********** Variables ************************************************************
 // pins for the LEDs:
-const int ledPin = 13;
-int estat1, estat2 = 2;    // 0:Verd, 1:Tronja, 2:Vermell
+const int ledPin = 13; // ledPin al 13
+int estat1, estat2 = 2;   // 0:Verd, 1:Tronja, 2:Vermell
 
 
 //********** Setup ****************************************************************
 void setup() {
-  // initialize serial:
+  // initialize serial: 
   Serial.begin(9600);
   // make the pins outputs:
   pinMode(ledPin, OUTPUT); 
